@@ -29,6 +29,7 @@
   --section-footer-align: center;
   --footer-padding: 5rem 0 1rem;
 }
+
 *,
 *:before,
 *:after {
@@ -93,11 +94,12 @@ a:active {
 }
 
 .section-body {
-    padding: var(--section-body-padding);
+  padding: var(--section-body-padding);
 }
 
-.section-footer-padding {
-    text-align: var(--section-footer-align);
+.section-footer {
+  padding: var(--section-footer-padding);
+  text-align: var(--section-footer-align);
 }
 .section-title {
   font-family: var(--font-family-title);
@@ -121,7 +123,7 @@ a:active {
 }
 
 .footer {
-    padding: var(--footer-padding);
+  padding: var(--footer-padding);
 }
 
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
