@@ -241,19 +241,6 @@ a:active {
   color: var(--color-primary);
 }
 
-.card-testimonial .card-quote {
-    position: relative;
-}
-.card-testimonial .card-quote::before {
-    content: "\201c";
-    position: absolute;
-    top: -4.5rem;
-    left: -1em;
-    color: #efeded;
-    font-size: 10em;
-    z-index: -1;
-}
-
 .card-work .card-outer {
   position: relative;
   overflow: hidden;
@@ -353,6 +340,20 @@ ul.row {
 [class^="col-"] {
   float: left;
   padding: 0.5rem;
+}
+
+.card-testimonial .card-quote {
+  position: relative;
+}
+
+.card-testimonial .card-quote::before {
+  content: "\201C";
+  position: absolute;
+  top: -4.5rem;
+  left: -1rem;
+  color: #efeded;
+  font-size: 10rem;
+  z-index: -1;
 }
 
 .container {
