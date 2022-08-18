@@ -1,1 +1,0 @@
-# This directory contains a script that reads stdin line by line and prints the result
